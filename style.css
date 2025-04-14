@@ -1,0 +1,93 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Business Card Container */
+.card {
+    width: 350px;
+    height: 200px;
+    background-color: royalblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+/* Color Bar */
+.color-bar {
+    height: 20px;
+    background-color:red; /* Change this color */
+    width: 100%;
+}
+
+/* Logo Area */
+.logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gol;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    border: 3px solid red; /* Match with color-bar */
+}
+
+/* Contact Information */
+.info {
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    width: 200px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.title {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.contact {
+    font-size: 12px;
+    color: black;
+    margin-bottom: 3px;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
